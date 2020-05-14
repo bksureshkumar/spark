@@ -1,0 +1,8 @@
+<configuration>
+    <property><name>google.bigtable.project.id</name><value>broadcom-gcp-migration-pocs</value></property>
+    <property><name>google.bigtable.instance.id</name><value>broadcom-new-poc</value></property>
+    <property>
+        <name>hbase.client.connection.impl</name>
+        <value>com.google.cloud.bigtable.hbase1_x.BigtableConnection</value>
+    </property>
+</configuration>
